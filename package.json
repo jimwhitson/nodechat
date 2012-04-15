@@ -1,0 +1,8 @@
+{
+  "name":"nodechat",
+  "version":"0.0.1",
+  "dependencies":{
+    "connect":"2.1.2",
+    "mongoose":"2.5.14"
+  }
+}
