@@ -66,7 +66,7 @@ function sendMsg(req, res) {
   message.msg = msg;
   message.timestamp = new Date();
   message.save(function(e) {
-    console.log(e);
+    if(e){console.log(e);}
   });
   // send to all waiting clients and delete (they will reconnect)
   while(responses.length>0){
