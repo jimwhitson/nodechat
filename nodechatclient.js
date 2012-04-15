@@ -1,4 +1,4 @@
-var ajaxErrors = 0;
+var ajaxErrors = 1;
 
 function poll(data){
 	if(data && data.msg){
